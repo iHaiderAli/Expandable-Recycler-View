@@ -49,7 +49,7 @@ public class childViewHolder extends ChildViewHolder {
   }
 
   public void onBind(Child child) {
-    child_name.setText(child.getTitle());
+    child_name.setText(child.getChildName());
   }
 }
 ```
@@ -81,7 +81,7 @@ public class ParentAdapter extends ExpandableRecyclerViewAdapter<ParentViewHolde
   public void onBindChildViewHolder(ChildViewHolder holder, int flatPosition, ExpandableGroup group,
       int childIndex) {
     final Child child = ((Child) group).getItems().get(childIndex);
-    holder.setchildName(child.getName());
+    holder.setchildName(child.getChildName());
   }
 
   @Override
@@ -178,9 +178,9 @@ If you want register an `ExpandCollapseListener` outside of the adapter, you can
 
     }
   });
+```
 
-
-
+```
 ## Authors
 * **Haider Ali**
 
