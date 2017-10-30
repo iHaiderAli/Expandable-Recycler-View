@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Expandable RecyclerView</string>
+    <string name="groupName">Group Name</string>
+    <string name="childName">Child Name</string>
+</resources>
