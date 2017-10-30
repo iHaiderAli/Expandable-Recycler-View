@@ -179,8 +179,6 @@ If you want register an `ExpandCollapseListener` outside of the adapter, you can
     }
   });
 ```
-
-```
 ## Authors
 * **Haider Ali**
 
