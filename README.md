@@ -1,6 +1,8 @@
 # ExpandableRecyclerView
 Make an expandable list view by RecyclerView with support for multiple view types in Android. 
 
+[![collapsed_list.png](https://s18.postimg.org/7nulvmugp/collapsed_list.png)](https://postimg.org/image/5w1n0qb3p/) [![brothers.png](https://s18.postimg.org/s7zfu6fdl/brothers.png)](https://postimg.org/image/n9bxfnbkl/) [![cousins.png](https://s18.postimg.org/5ja8un8ah/cousins.png)](https://postimg.org/image/56iuogq0l/) [![friends.png](https://s18.postimg.org/ta9mcsis9/friends.png)](https://postimg.org/image/56iuoi0b9/)
+
 ## Download
 ExpandableRecyclerView:
 ```groovy
